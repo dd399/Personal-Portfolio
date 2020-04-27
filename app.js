@@ -89,15 +89,15 @@ app.post("/api/email", (req, res) => {
     port: 465,
     secure: true,
     auth: {
-      user: "*****",
-      pass: "*****",
+      user: "dhwaniljames@gmail.com",
+      pass: "Barkha12!@",
     },
   });
 
   // Specify what the email will look like
   const mailOpts = {
     from: "Your sender info here", // This is ignored by Gmail
-    to: "*****",
+    to: "dhwaniljames@gmail.com",
     subject: "New message from portfolio site",
     text: `${req.body.name} (${req.body.email}) says: ${req.body.message}`,
   };
