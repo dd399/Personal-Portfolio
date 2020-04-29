@@ -90,7 +90,7 @@ app.post("/api/email", (req, res) => {
     secure: true,
     auth: {
       user: "dhwaniljames@gmail.com",
-      pass: "Barkha12!@",
+      pass: "*******",
     },
   });
 
